@@ -4,7 +4,7 @@ import { Navbar, Nav, Button, Container } from 'react-bootstrap';
 
 const NavbarComp = () => {
     return (
-        <Navbar bg="light" expand="sm" className="shadow-sm h-100">
+        <Navbar bg="light" expand="sm" className="shadow-sm" fixed='top'>
             <Container>
                 <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
