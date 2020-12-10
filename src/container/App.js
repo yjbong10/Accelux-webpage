@@ -1,4 +1,5 @@
 import { Container } from 'react-bootstrap';
+import BrandsSection from '../components/BrandsSection/BrandsSection';
 import HeroSection from '../components/HeroSection/HeroSection';
 import NavbarComp from '../components/NavbarComp/NavbarComp';
 import Sections from '../components/Sections/Sections';
@@ -16,8 +17,11 @@ function App() {
         <Container fluid className="App__container--s-Bg">
           <Sections />
         </Container>
-
         <Tiers />
+        <Container fluid className="App__container--d-Bg">
+          <BrandsSection />
+        </Container>
+        
 
       </Container>
     </div>

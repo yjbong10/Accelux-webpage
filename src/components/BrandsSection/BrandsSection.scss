@@ -1,0 +1,28 @@
+.brandsSection {
+    padding-top: 3rem;
+    
+    h4 {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: -1rem;
+
+        span {
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+
+    }
+
+    &__imgs {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 1rem;
+        align-items: center;
+  
+
+        & > * {
+            width: 100%;
+            flex: 1;
+        }
+    }
+}

@@ -1,7 +1,13 @@
 .App__container--p-Bg {
     background: linear-gradient(-25deg, rgba(211,211,227,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(-25deg, rgb(236, 236, 236) 0%, rgba(255,255,255,1) 100%);
 }
 
 .App__container--s-Bg {
     background: linear-gradient(-25deg, rgb(222, 227, 211) 0%, rgb(241, 201, 189) 100%);
+    background: linear-gradient(-25deg, rgb(227, 221, 211)0%, rgb(241, 201, 189) 100%);
+}
+
+.App__container--d-Bg {
+    background: linear-gradient(-25deg, rgb(255, 255, 255)0%, rgb(230, 220, 216) 100%);
 }

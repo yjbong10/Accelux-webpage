@@ -52,7 +52,10 @@ const Tiers = () => {
             text: "Try Now",
             color: "warning"
         },
-        bgStyle: { background: "linear-gradient(150deg, rgb(255, 255, 255) 0%, #eae9f0 100%" }
+        bgStyle: { 
+            background: "linear-gradient(150deg, rgb(255, 255, 255) 0%, #eae9f0 100%",
+            transform: "scale(1.05)"
+        }
     }, {
         faIcon: "fas fa-project-diagram",
         name: "Enterprise",
