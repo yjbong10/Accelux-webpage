@@ -8,12 +8,13 @@ function App() {
   return (
     <div className="App">
       <NavbarComp />
+
       <Container fluid className="App__container--p-Bg">
         <HeroSection />
 
-        {/* <Container fluid className="App__container--s-Bg">
+        <Container fluid className="App__container--s-Bg">
           <Sections />
-        </Container> */}
+        </Container>
 
       </Container>
     </div>

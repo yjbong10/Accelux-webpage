@@ -5,22 +5,31 @@ import { Button, Col, Container, Row } from 'react-bootstrap'
 
 const Sections = () => {
     return (
-        <Container className="d-flex align-items-center pt-5 pb-5 flex-wrap-reverse">
-            <Row className="h-100">
-                <Col lg={6} className='d-flex align-items-center justify-content-start'>
-                    <img src={bg} alt="bg" width='90%' />
-                </Col>
-
-                <Col lg={6} className='d-flex align-items-center'>
-                    <div>
-                        <h1 className='mb-4'>More Speed. Less Haste.</h1>
+        <Container>
+            <section className="Sections">
+                <Row className="h-100 py-3">
+                    <Col lg={{ span: 6, order: 1 }} className="Sections__content">
+                        <h2>More Speed. Less Haste.</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi ut sapien lobortis hendrerit. Cras vitae urna nec ipsum consequat vulputate. Nulla interdum dapibus viverra. Ut porttitor tristique volutpat.</p>
                         <div className='d-flex align-items-center justify-content-start'>
-                            <Button variant="secondary">Learn more</Button>
+                            <Button variant="info">Learn more</Button>
                         </div>
-                    </div>
-                </Col>
-            </Row>
+                        <div className="Sections__content__review">
+                            <div className="Sections__content__review__quote">
+                                <i className="fas fa-quote-left Sections__content__review__quote__icon--left"></i>
+                                <p>"We can't understand how we've been living without Accelux. I don't always clop, but when I do, it's because of Accelux."</p>
+                                <i className="fas fa-quote-right Sections__content__review__quote__icon--right"></i>
+                            </div>
+                            <div className="Sections__content__review__name">
+                                <p>- <span>Dorelle R</span>, Senior Applications Analyst</p>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={{span: 6, order: 0}} className="Sections__img">
+                        <img src={bg} alt="bg" width='100%' />
+                    </Col>
+                </Row>
+            </section>
         </Container>
     )
 }

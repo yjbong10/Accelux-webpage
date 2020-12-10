@@ -1,0 +1,65 @@
+.Sections {
+    &__content,
+    &__img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 2rem 0;
+    }
+
+    &__content {
+        padding-left: 2rem;
+    }
+
+    &__content__review {
+        margin-top: 3rem;
+
+        font-size: .75rem;
+        font-weight: 100;
+
+        &__quote {
+            background-color: rgba(246, 241, 250, 0.397);
+            padding: 2rem;
+            font-style: italic;
+            position: relative;
+            
+            p {
+                 margin-bottom: 0;
+            }
+
+            &__icon--left {
+                position: absolute;
+                top: 0;
+                left: 0;
+                transform: translate(-30%, -30%);
+                font-size: 2rem;
+
+                color: coral;
+                opacity: .7;
+            }
+
+            &__icon--right {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                transform: translate(30%, 30%);
+                font-size: 2rem;
+
+                color: coral;
+                opacity: .7;
+            }
+        }
+
+        &__name {
+            p {
+                margin-top: 1rem;
+                margin-bottom: 0;
+                font-size: .875rem;
+            }
+
+            & span {
+                font-weight: 400;
+            }
+        }
+    }
+}

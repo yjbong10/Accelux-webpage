@@ -1,27 +1,13 @@
 .HeroSection {
-    height: 100vh;
-    max-height: 67.5rem;
+    height: 100%;
     width: 100%;
-    padding-top: 72px;
-}
+    padding: calc(2.5rem + 72px) 0 2.5rem 0;
 
-
-
-.background {
-    position: relative;
-    height: 200px;
-    width: 100%;
-    z-index: 0;
-
-    &::after {
-        content: '';
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        top: 0;
-        right: 0;
-        background: url('../../asset/img/vr.svg') no-repeat;
-        background-position: 100%;
-        z-index: -1;
+    &__content,
+    &__img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 2rem 0;
     }
 }
