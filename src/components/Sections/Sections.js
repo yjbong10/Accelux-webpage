@@ -2,6 +2,7 @@ import React from 'react'
 import './Sections.scss'
 import bg from '../../asset/img/rocket_launch.svg'
 import { Button, Col, Container, Row } from 'react-bootstrap'
+import ReviewCard from './ReviewCard/ReviewCard'
 
 const Sections = () => {
     return (
@@ -14,16 +15,9 @@ const Sections = () => {
                         <div className='d-flex align-items-center justify-content-start'>
                             <Button variant="info">Learn more</Button>
                         </div>
-                        <div className="Sections__content__review">
-                            <div className="Sections__content__review__quote">
-                                <i className="fas fa-quote-left Sections__content__review__quote__icon--left"></i>
-                                <p>"We can't understand how we've been living without Accelux. I don't always clop, but when I do, it's because of Accelux."</p>
-                                <i className="fas fa-quote-right Sections__content__review__quote__icon--right"></i>
-                            </div>
-                            <div className="Sections__content__review__name">
-                                <p>- <span>Dorelle R</span>, Senior Applications Analyst</p>
-                            </div>
-                        </div>
+                        <ReviewCard name='Dorelle R' title='Senior Applications Analyst'>
+                            <p>"We can't understand how we've been living without Accelux. I don't always clop, but when I do, it's because of Accelux."</p>
+                        </ReviewCard>
                     </Col>
                     <Col lg={{span: 6, order: 0}} className="Sections__img">
                         <img src={bg} alt="bg" width='100%' />
