@@ -1,21 +1,24 @@
 import React from 'react';
+import './NavbarComp.scss'
 import { Navbar, Nav, Button, Container } from 'react-bootstrap';
 
-
 const NavbarComp = () => {
+
+    const navbarStyle = "Navbar shadow-sm"
+
     return (
-        <Navbar bg="light" expand="sm" className="shadow-sm" fixed='top'>
+        <Navbar expand="md" className={navbarStyle} fixed='top'>
             <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="#home">ACCELUX</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto">
+                    <Nav className="Navbar__nav ml-auto">
                         <Nav.Link href="#Product">Product</Nav.Link>
                         <Nav.Link href="#Features">Features</Nav.Link>
                         <Nav.Link href="#About">About</Nav.Link>
                         <Button
-                            className="rounded-pill"
-                            variant="primary"
+                            className="rounded-pill px-3"
+                            variant="info"
                             size="md">Try Now</Button>{' '}
                     </Nav>
                 </Navbar.Collapse>

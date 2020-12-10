@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import JumbotronComp from '../components/HeroSection/HeroSection';
+import HeroSection from '../components/HeroSection/HeroSection';
 import NavbarComp from '../components/NavbarComp/NavbarComp';
 import Sections from '../components/Sections/Sections';
 import './App.scss';
@@ -9,11 +9,11 @@ function App() {
     <div className="App">
       <NavbarComp />
       <Container fluid className="App__container--p-Bg">
-          <JumbotronComp />
+        <HeroSection />
 
-        <Container fluid className="App__container--s-Bg">
+        {/* <Container fluid className="App__container--s-Bg">
           <Sections />
-        </Container>
+        </Container> */}
 
       </Container>
     </div>
