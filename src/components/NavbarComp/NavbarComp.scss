@@ -1,6 +1,37 @@
 .Navbar {
     padding: 1rem 0rem;
-    background: linear-gradient(-45deg, rgb(251, 247, 255), rgb(245, 243, 243));
+
+    &::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        background: linear-gradient(-45deg, rgb(251, 247, 255), rgb(245, 243, 243));
+        opacity: 1;
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+
+        transition: all .5s ease ;
+    }
+}
+
+.Navbar--transparent {
+    &::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        background: linear-gradient(-45deg, rgb(251, 247, 255), rgb(245, 243, 243));
+        opacity: 0;
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+
+        transition: all .5s ease;
+    }
 }
 
 .Navbar__nav > * {

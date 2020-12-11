@@ -1,13 +1,29 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './NavbarComp.scss'
 import { Navbar, Nav, Button, Container } from 'react-bootstrap';
 
 const NavbarComp = () => {
 
-    const navbarStyle = "Navbar shadow-sm px-4 px-md-3"
+    const [isMouseOver, setMouseOver] = useState(false)
+    const [isOnTop, setIsOnTop] = useState(false)
+    const navbarStyle = 
+        isMouseOver || isOnTop ? "Navbar px-4 px-md-3"
+            : "Navbar Navbar--transparent px-4 px-md-3"
+
+    useEffect(() => {
+        window.onscroll = () => {
+            if (window.pageYOffset > 0) {
+                setIsOnTop(true);
+            } else {
+                setIsOnTop(false);
+            }
+        }
+    }, [])
 
     return (
-        <Navbar expand="md" className={navbarStyle} fixed='top'>
+        <Navbar expand="md" className={navbarStyle} fixed='top' 
+            onMouseOver={() => setMouseOver(true)}
+            onMouseOut={() => setMouseOver(false)}>
             <Container>
                 <Navbar.Brand href="#home">ACCELUX</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
