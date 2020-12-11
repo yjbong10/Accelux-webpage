@@ -19,7 +19,7 @@ const HeroSection = () => {
                     </Fade>
                     
                     <div className='d-flex align-items-center justify-content-start'>
-                        <Fade clear cascade delay={1400}>
+                        <Fade bottom delay={1400} duration={1300} distance="30%">
                             <Button variant="warning" className="mr-4">Try Now For Free</Button>
                             <Button variant="info">Learn more</Button>
                         </Fade>
