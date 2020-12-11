@@ -30,6 +30,12 @@ p {
   font-weight: 400;
 }
 
+a,
+a:hover {
+  text-decoration: none;
+  color: rgb(38, 38, 68);
+}
+
 code {
   font-family: 'Montserrat', sans-serif;
 }

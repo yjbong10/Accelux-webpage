@@ -9,43 +9,43 @@ const Footer = () => {
                 <div className='Footer__nav'>
                     <div>
                         <h5>Pricing</h5>
-                        <p>Accelux Free</p>
-                        <p>Accelux Student</p>
-                        <p>Accelux Pro</p>
-                        <p>Accelux Pro +</p>
-                        <p>Accelux Enterprice</p>
-                        <p>Accelux Enterprice +</p>
+                        <p><a href="/">Accelux Free</a></p>
+                        <p><a href="/">Accelux Student</a></p>
+                        <p><a href="/">Accelux Pro</a></p>
+                        <p><a href="/">Accelux Pro +</a></p>
+                        <p><a href="/">Accelux Enterprise</a></p>
+                        <p><a href="/">Accelux Enterprise +</a></p>
                     </div>
                     <div>
                         <h5>Get Accelux</h5>
-                        <p>Download</p>
-                        <p>Contact Sales</p>
+                        <p><a href="/">Download</a></p>
+                        <p><a href="/">Contact Sales</a></p>
                     </div>
                     <div>
                         <h5>Resources</h5>
-                        <p>Docs</p>
-                        <p>Blog</p>
-                        <p>Community</p>
-                        <p>Webinars</p>
-                        <p>Education Programe</p>
-                        <p>Partner Resources</p>
+                        <p><a href="/">Docs</a></p>
+                        <p><a href="/">Blog</a></p>
+                        <p><a href="/">Community</a></p>
+                        <p><a href="/">Webinars</a></p>
+                        <p><a href="/">Education Programe</a></p>
+                        <p><a href="/">Partner Resources</a></p>
                     </div>
                     <div>
                         <h5>Support</h5>
-                        <p>Support Center</p>
-                        <p>Tech Support</p>
-                        <p>Custormer Service</p>
-                        <p>Order Tracking</p>
+                        <p><a href="/">Support Center</a></p>
+                        <p><a href="/">Tech Support</a></p>
+                        <p><a href="/">Custormer Service</a></p>
+                        <p><a href="/">Order Tracking</a></p>
                     </div>
                     <div>
                         <h5>Company</h5>
-                        <p>About</p>
-                        <p>Contact</p>
-                        <p>Location</p>
-                        <p>News</p>
-                        <p>Press & Media</p>
-                        <p>Investors</p>
-                        <p>Careers</p>
+                        <p><a href="/">About</a></p>
+                        <p><a href="/">Contact</a></p>
+                        <p><a href="/">Location</a></p>
+                        <p><a href="/">News</a></p>
+                        <p><a href="/">Press & Media</a></p>
+                        <p><a href="/">Investors</a></p>
+                        <p><a href="/">Careers</a></p>
                     </div>
                 </div>
                 <div className='Footer__content'>
@@ -54,9 +54,9 @@ const Footer = () => {
                         <p>English</p>
                     </div>
                     <div className='Footer__content__base'>
-                        <p>Privacy</p>
-                        <p>Terms</p>
-                        <p>Trademarks</p>
+                        <p><a href="/">Privacy</a></p>
+                        <p><a href="/">Terms</a></p>
+                        <p><a href="/">Trademarks</a></p>
                         <p>&copy; Accelux 2020</p>
                     </div>
                 </div>
