@@ -38,6 +38,17 @@ a:hover {
   color: rgb(38, 38, 68);
 }
 
+.btn {
+  transform: translateY(0px) !important;
+  transition: all .3s ease;
+
+  &:hover {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.308)!important;
+    transform: translateY(-2px) !important;
+    transition: all .3s ease;
+  }
+}
+
 code {
   font-family: 'Montserrat', sans-serif;
 }
