@@ -97,13 +97,14 @@ const Tiers = () => {
 
 
     return (
+        <section className="Tiers">
         <Container>
-            <section className="Tiers">
+
                 <Row>
                     {cardsCol}
                 </Row>
-            </section>
         </Container>
+        </section>
     )
 }
 

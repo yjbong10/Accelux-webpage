@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <NavbarComp />
 
-      <Container fluid className="App__container--p-Bg">
+      <Container fluid className="HeroSection__outerContainer--p-Bg">
         <HeroSection />
       </Container>
 
@@ -20,10 +20,10 @@ function App() {
 
       <Tiers />
 
-      <Container fluid className="App__container--s-li-Bg">
+      <Container fluid className="BrandsSection__outerContainer--s-li-Bg">
         <BrandsSection />
       </Container>
-      <Container fluid className="App__container--d-Bg">
+      <Container fluid className="Footer__outerContainer--d-Bg">
         <Footer />
       </Container>
     </div>

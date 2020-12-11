@@ -10,7 +10,7 @@ import SectionCard from './SectionCard/SectionCard'
 const Sections = () => {
     return (
         <>
-            <Container fluid className="even">
+            <Container fluid className="Sections__outerContainer--bg">
                 <Container>
                     <section className="Sections">
                         <SectionCard reverse={true} imgSrc={rocket_launch} imgAlt="bg">
@@ -27,7 +27,7 @@ const Sections = () => {
                 </Container>
             </Container>
 
-            <Container fluid>
+            <Container fluid className="Sections__outerContainer">
                 <Container>
                 <section className="Sections" style={{background: "transparent"}}>
                     <SectionCard reverse={false} imgSrc={world_connection} imgAlt="bg">
@@ -44,7 +44,7 @@ const Sections = () => {
                 </Container>
             </Container>
 
-            <Container fluid className="even">
+            <Container fluid className="Sections__outerContainer--bg">
                 <Container>
                 <section className="Sections">
                     <SectionCard reverse={true} imgSrc={online_storage} imgAlt="bg">
