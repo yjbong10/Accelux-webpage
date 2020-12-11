@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/yjbong10/Accelux-webpage/static/css/main.fb339741.chunk.css",
+    "main.js": "/yjbong10/Accelux-webpage/static/js/main.4ebcbfb3.chunk.js",
+    "main.js.map": "/yjbong10/Accelux-webpage/static/js/main.4ebcbfb3.chunk.js.map",
+    "runtime-main.js": "/yjbong10/Accelux-webpage/static/js/runtime-main.9fbc51ab.js",
+    "runtime-main.js.map": "/yjbong10/Accelux-webpage/static/js/runtime-main.9fbc51ab.js.map",
+    "static/js/2.64d8437e.chunk.js": "/yjbong10/Accelux-webpage/static/js/2.64d8437e.chunk.js",
+    "static/js/2.64d8437e.chunk.js.map": "/yjbong10/Accelux-webpage/static/js/2.64d8437e.chunk.js.map",
+    "index.html": "/yjbong10/Accelux-webpage/index.html",
+    "static/css/main.fb339741.chunk.css.map": "/yjbong10/Accelux-webpage/static/css/main.fb339741.chunk.css.map",
+    "static/js/2.64d8437e.chunk.js.LICENSE.txt": "/yjbong10/Accelux-webpage/static/js/2.64d8437e.chunk.js.LICENSE.txt",
+    "static/media/bbc.835c5d95.png": "/yjbong10/Accelux-webpage/static/media/bbc.835c5d95.png",
+    "static/media/microsoft.e14226ab.png": "/yjbong10/Accelux-webpage/static/media/microsoft.e14226ab.png",
+    "static/media/online_storage.45f945bb.svg": "/yjbong10/Accelux-webpage/static/media/online_storage.45f945bb.svg",
+    "static/media/rocket_launch.e7521222.svg": "/yjbong10/Accelux-webpage/static/media/rocket_launch.e7521222.svg",
+    "static/media/sony.49672ace.png": "/yjbong10/Accelux-webpage/static/media/sony.49672ace.png",
+    "static/media/tesla.4b47740a.png": "/yjbong10/Accelux-webpage/static/media/tesla.4b47740a.png",
+    "static/media/trivago.025b1144.png": "/yjbong10/Accelux-webpage/static/media/trivago.025b1144.png",
+    "static/media/vr.eafa294b.svg": "/yjbong10/Accelux-webpage/static/media/vr.eafa294b.svg",
+    "static/media/walmart.8c6f48ab.png": "/yjbong10/Accelux-webpage/static/media/walmart.8c6f48ab.png",
+    "static/media/world_connection.b9a3b75d.svg": "/yjbong10/Accelux-webpage/static/media/world_connection.b9a3b75d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fbc51ab.js",
+    "static/js/2.64d8437e.chunk.js",
+    "static/css/main.fb339741.chunk.css",
+    "static/js/main.4ebcbfb3.chunk.js"
+  ]
+}
