@@ -4,7 +4,7 @@ import { Navbar, Nav, Button, Container } from 'react-bootstrap';
 
 const NavbarComp = () => {
 
-    const navbarStyle = "Navbar shadow-sm"
+    const navbarStyle = "Navbar shadow-sm px-4 px-md-3"
 
     return (
         <Navbar expand="md" className={navbarStyle} fixed='top'>

@@ -6,4 +6,10 @@
         justify-content: center;
         margin: 5rem 0;
     }
+
+    @media (max-width: 992px) {
+        &__img {
+            margin-top: 0;
+        }
+    }
 }

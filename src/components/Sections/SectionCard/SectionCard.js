@@ -7,8 +7,8 @@ const SectionCard = (props) => {
 
     let btmColLg = props.reverse ? { span: 6, order: 0 } : { span: 6, order: 1 }
 
-    let tpColClass = props.reverse ? "SectionCard__content pl-4" : "SectionCard__content"
-    let btmColClass = props.reverse ? "SectionCard__img" : "SectionCard__img pl-4"
+    let tpColClass = props.reverse ? "SectionCard__content pl-lg-4" : "SectionCard__content"
+    let btmColClass = props.reverse ? "SectionCard__img" : "SectionCard__img pl-lg-4"
 
     let imgDirection = props.reverse ? {left: true} : {right: true}
 
