@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/yjbong10/Accelux-webpage",
-  "name": "react-bootstrap-page",
+  "homepage": ".",
+  "name": "accelux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
