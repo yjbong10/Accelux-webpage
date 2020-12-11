@@ -14,16 +14,15 @@ function App() {
 
       <Container fluid className="App__container--p-Bg">
         <HeroSection />
-
-        <Container fluid className="App__container--s-Bg">
-          <Sections />
-        </Container>
-        <Tiers />
-        <Container fluid className="App__container--s-li-Bg">
-          <BrandsSection />
-        </Container>
       </Container>
 
+      <Sections />
+
+      <Tiers />
+
+      <Container fluid className="App__container--s-li-Bg">
+        <BrandsSection />
+      </Container>
       <Container fluid className="App__container--d-Bg">
         <Footer />
       </Container>
