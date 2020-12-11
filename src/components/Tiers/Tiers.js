@@ -2,12 +2,13 @@ import React, { Fragment } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import TierCard from './TierCard/TierCard'
 import './Tiers.scss'
+import Fade from 'react-reveal/Fade';
 
 const Tiers = () => {
 
     const tierItems = [{
         faIcon: "fas fa-gem",
-        name: "Premium",
+        name: "Pro",
         price: "$39.99",
         pricePer: "month",
         description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
@@ -86,7 +87,9 @@ const Tiers = () => {
         return (
             <Fragment key={item.name}>
                 <Col lg={4}>
+                    <Fade bottom ={2000} distance="5%">
                     <TierCard item={item} />
+                    </Fade>
                 </Col>
             </Fragment>
         )
@@ -99,7 +102,6 @@ const Tiers = () => {
                 <Row>
                     {cardsCol}
                 </Row>
-                
             </section>
         </Container>
     )

@@ -7,12 +7,14 @@ import logo4 from '../../asset/img/brands/trivago.png'
 import logo5 from '../../asset/img/brands/tesla.png'
 import logo6 from '../../asset/img/brands/walmart.png'
 import './BrandsSection.scss'
+import Flip from 'react-reveal/Flip';
 
 const BrandsSection = () => {
     return (
         <Container>
             <section className='brandsSection'>
                 <h4>Trusted and used by more than <span>4000 comapnies</span> across the world</h4>
+                <Flip top cascade duration={1300}>
                 <div className="brandsSection__imgs">
                     <img src={logo1} alt={logo1}></img>
                     <img src={logo2} alt={logo2}></img>
@@ -21,6 +23,7 @@ const BrandsSection = () => {
                     <img src={logo5} alt={logo5}></img>
                     <img src={logo6} alt={logo6}></img>
                 </div>
+                </Flip>
             </section>
         </Container>
     )

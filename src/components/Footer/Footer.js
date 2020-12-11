@@ -1,12 +1,14 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import './Footer.scss'
+import Fade from 'react-reveal/Fade';
 
 const Footer = () => {
     return (
         <Container>
             <section className='Footer'>
                 <div className='Footer__nav'>
+                    <Fade bottom duration={1000} distance="3%">
                     <div>
                         <h5>Pricing</h5>
                         <p><a href="/">Accelux Free</a></p>
@@ -16,12 +18,16 @@ const Footer = () => {
                         <p><a href="/">Accelux Enterprise</a></p>
                         <p><a href="/">Accelux Enterprise +</a></p>
                     </div>
+                    </Fade>
+                    <Fade bottom duration={1000} distance="3%">
                     <div>
                         <h5>Get Accelux</h5>
                         <p><a href="/">Download</a></p>
                         <p><a href="/">Contact Sales</a></p>
                     </div>
-                    <div>
+                    </Fade>
+                    <Fade bottom duration={1000} distance="3%">
+                    <div>                
                         <h5>Resources</h5>
                         <p><a href="/">Docs</a></p>
                         <p><a href="/">Blog</a></p>
@@ -30,14 +36,18 @@ const Footer = () => {
                         <p><a href="/">Education Programe</a></p>
                         <p><a href="/">Partner Resources</a></p>
                     </div>
-                    <div>
+                    </Fade>
+                    <Fade bottom duration={1000} distance="3%">
+                    <div>                        
                         <h5>Support</h5>
                         <p><a href="/">Support Center</a></p>
                         <p><a href="/">Tech Support</a></p>
                         <p><a href="/">Custormer Service</a></p>
-                        <p><a href="/">Order Tracking</a></p>
+                        <p><a href="/">Order Tracking</a></p>               
                     </div>
-                    <div>
+                    </Fade>
+                    <Fade bottom duration={1000} distance="3%">
+                    <div>           
                         <h5>Company</h5>
                         <p><a href="/">About</a></p>
                         <p><a href="/">Contact</a></p>
@@ -45,8 +55,9 @@ const Footer = () => {
                         <p><a href="/">News</a></p>
                         <p><a href="/">Press & Media</a></p>
                         <p><a href="/">Investors</a></p>
-                        <p><a href="/">Careers</a></p>
+                        <p><a href="/">Careers</a></p>           
                     </div>
+                    </Fade>
                 </div>
                 <div className='Footer__content'>
                     <div className='Footer__content__lang'>
