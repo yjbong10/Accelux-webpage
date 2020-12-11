@@ -11,6 +11,9 @@
             font-weight: 700;
         }
 
+        @media (max-width: 576px) { 
+            margin-bottom: 0rem;
+        }
     }
 
     &__imgs {
@@ -22,6 +25,13 @@
 
         & > * {
             width: 100%;
+        }
+
+        @media (max-width: 576px) { 
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            height: min-content;
+            padding: 0 2rem;
+            row-gap: 0rem;
         }
     }
 }

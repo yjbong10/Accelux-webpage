@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
                 <div className='Footer__content'>
                     <div className='Footer__content__lang'>
-                        <i class="fas fa-globe"></i>
+                        <i className="fas fa-globe"></i>
                         <p>English</p>
                     </div>
                     <div className='Footer__content__base'>
