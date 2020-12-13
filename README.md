@@ -1,6 +1,6 @@
 # Accelux-webpage (home page only)
 
-A mordern tech sofware official website.
+A mordern tech software official website.
 
 Website: [https://yjbong10.github.io/Accelux-webpage/](https://yjbong10.github.io/Accelux-webpage/)
 
